@@ -117,6 +117,7 @@ a {
     text-align: center;
 
     box-shadow: 3px 0px 50px 20px #000000;
+    
 }
 
 .header {
@@ -152,7 +153,7 @@ a {
     height: fit-content;
     font-family: "Oswald", sans-serif;
     display: grid;
-    background-color: #461E52;
+    background: radial-gradient(circle, #461E52 70%, #000000 100%);
 
     color: #feda84;
 
