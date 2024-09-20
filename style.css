@@ -22,8 +22,8 @@ a {
 .active {
 
     object-fit: cover;
-    width: 375px;
-    height: 211px;
+    width: 450px;
+    height: 253px;
     border-radius: 20px 20px 0px 0px;
 
 }
@@ -163,14 +163,15 @@ a {
 
 .projects {
 
+    display: grid;
+
     margin-top: 40px;
     margin-bottom: 40px;
     width: 100%;
-    height: fit-content;
-    display: grid; 
+    height: fit-content; 
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
-    row-gap: 30px;
+    column-gap: 50px;
+    row-gap: 50px;
     justify-content: center;
 } 
 
@@ -188,7 +189,7 @@ a {
 
 .projectName {
 
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 0px;
@@ -197,7 +198,7 @@ a {
 
 .projectInfo {
 
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 0;
     margin-left: 20px;
     margin-bottom: 20px;
