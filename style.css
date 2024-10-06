@@ -7,8 +7,8 @@ html {
 body {
 
 
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
